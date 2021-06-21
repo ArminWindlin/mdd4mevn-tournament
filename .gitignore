@@ -1,0 +1,11 @@
+# IntelliJ project files
+.idea
+*.iml
+
+# Exclude node modules
+node_modules/*
+server/node_modules/*
+
+# Client
+client/node_modules/*
+client/dist

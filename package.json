@@ -1,0 +1,12 @@
+{
+  "name": "tournament",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve:client": "cd client && npm run serve",
+    "serve:server": "cd server && npm run serve",
+    "serve": "npm-run-all -l -p serve:client serve:server"
+  },
+  "author": "MDD4MEVN (Armin Windlin)",
+  "license": "ISC"
+}
